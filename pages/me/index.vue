@@ -11,7 +11,7 @@
 </template>
 <script lang="ts" setup>
 import { storeToRefs } from "pinia";
-import stores from "~~/composables/store/store";
+import stores from "~~/store/store";
 const user = stores.user()
 //storeToRefs可动态渲染的解构如下：
 const { name, age, sex, token } = storeToRefs(user)

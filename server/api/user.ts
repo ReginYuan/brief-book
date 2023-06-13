@@ -1,4 +1,4 @@
-import { fetchTMDB } from '~/composables/utils/tmdb'
+import { fetchTMDB } from '~/utils/tmdb'
 // 获取用户详细信息
 export function getList(params: any) {
   /**

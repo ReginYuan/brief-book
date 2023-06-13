@@ -2,8 +2,8 @@ import { $fetch } from 'ohmyfetch'
 import LRU from 'lru-cache'
 import { hash as ohash } from 'ohash'
 import { showFailToast } from 'vant'
-import errorCode from '~/composables/utils/errorCode'
-import { getToken } from '~/composables/utils/auth'
+import errorCode from '~/utils/errorCode'
+import { getToken } from '~/utils/auth'
 const apiBaseUrl = import.meta.env.VITE_APP_BASE_API
 
 const cache = new LRU({

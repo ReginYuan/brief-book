@@ -59,7 +59,6 @@
     "kysen-flexible": "^1.0.3",
     "lru-cache": "^7.18.1",
     "ohmyfetch": "^0.4.21",
-    "pdfjs-dist": "2.12.313",
     "pinia": "^2.0.32",
     "sass": "^1.59.2",
     "typescript": "^4.9.5",

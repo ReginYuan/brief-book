@@ -7,7 +7,6 @@ specifiers:
   '@jridgewell/sourcemap-codec': ^1.4.14
   '@pinia-plugin-persistedstate/nuxt': ^1.0.0
   '@pinia/nuxt': ^0.4.7
-  '@pzy915/pdf-preview': ^0.0.3
   '@types/js-cookie': ^3.0.3
   '@types/node': ^18.14.2
   '@types/nprogress': ^0.2.0
@@ -51,7 +50,6 @@ dependencies:
   '@jridgewell/sourcemap-codec': 1.4.14
   '@pinia-plugin-persistedstate/nuxt': 1.0.0_zebqlokuyzf54u3x3a43v4cl4i
   '@pinia/nuxt': 0.4.7_hmuptsblhheur2tugfgucj7gc4
-  '@pzy915/pdf-preview': 0.0.3
   '@types/node': 18.14.2
   install: 0.13.0
   js-cookie: 3.0.1
@@ -1360,12 +1358,6 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@pzy915/pdf-preview/0.0.3:
-    resolution: {integrity: sha512-JK/y50nDSpIHbzeSRUxazpZCAgegeRdYN9SrHXulx3Yqq5bG78n1Fk6OFCxKbjbsWkVjXLChEQn7tD9klgaq9w==, registry: http://registry.npm.taobao.org/, tarball: http://registry.npm.taobao.org/@pzy915/pdf-preview/-/pdf-preview-0.0.3.tgz}
-    dependencies:
-      '@ungap/global-this': 0.4.4
-    dev: false
-
   /@rollup/plugin-alias/4.0.3_rollup@3.17.3:
     resolution: {integrity: sha512-ZuDWE1q4PQDhvm/zc5Prun8sBpLJy41DMptYrS6MhAy9s9kL/doN1613BWfEchGVfKxzliJ3BjbOPizXX38DbQ==, registry: http://registry.npm.taobao.org/, tarball: http://registry.npm.taobao.org/@rollup/plugin-alias/-/plugin-alias-4.0.3.tgz}
     engines: {node: '>=14.0.0'}
@@ -1704,10 +1696,6 @@ packages:
       '@typescript-eslint/types': 5.54.0
       eslint-visitor-keys: 3.3.0
     dev: true
-
-  /@ungap/global-this/0.4.4:
-    resolution: {integrity: sha512-mHkm6FvepJECMNthFuIgpAEFmPOk71UyXuIxYfjytvFTnSDBIz7jmViO+LfHI/AjrazWije0PnSP3+/NlwzqtA==}
-    dev: false
 
   /@unhead/dom/1.1.14:
     resolution: {integrity: sha512-a1sc1m+MknBdhecYbH3ubYRgNly5mIi+u35OJ6wo0jKclsdO0TsQ1uNwfEqxZZTs2RUH0p67w6fvjk2QSSjv4A==}

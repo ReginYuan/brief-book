@@ -52,7 +52,6 @@
     "@jridgewell/sourcemap-codec": "^1.4.14",
     "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
     "@pinia/nuxt": "^0.4.7",
-    "@pzy915/pdf-preview": "^0.0.3",
     "@types/node": "^18.14.2",
     "install": "^0.13.0",
     "js-cookie": "^3.0.1",

@@ -59,14 +59,12 @@
     "kysen-flexible": "^1.0.3",
     "lru-cache": "^7.18.1",
     "ohmyfetch": "^0.4.21",
-    "pdfjs-dist": "2.12.313",
     "pinia": "^2.0.32",
     "sass": "^1.59.2",
     "typescript": "^4.9.5",
     "vant": "^4.0.11",
     "vite": "4.0.0",
     "vue": "^3.0.0",
-    "vue-pdf": "^4.3.0",
     "webpack": "4.46.0",
     "worker-loader": "^2.0.0"
   }

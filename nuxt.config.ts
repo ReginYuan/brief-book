@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     optimizeDeps: {
       // 用于：从预捆绑中排除的依赖项
       exclude: []
-    }
+    },
   },
   plugins: [
     // { src: '~/plugins/vue-pdf.ts', ssr: false }
@@ -40,6 +40,7 @@ export default defineNuxtConfig({
     '@vant/nuxt',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    '@unocss/nuxt'
-  ]
+    '@unocss/nuxt',
+    '@nuxtjs/i18n'
+  ],
 })

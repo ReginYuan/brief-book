@@ -54,6 +54,7 @@
     "@pinia/nuxt": "^0.4.7",
     "@pzy915/pdf-preview": "^0.0.3",
     "@types/node": "^18.14.2",
+    "ant-design-vue": "^3.2.20",
     "install": "^0.13.0",
     "js-cookie": "^3.0.1",
     "kysen-flexible": "^1.0.3",

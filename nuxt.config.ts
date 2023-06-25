@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-
+import Components from 'unplugin-vue-components/vite'
+import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 export default defineNuxtConfig({
   // 把env放入这个里面，通过useRuntimeConfig获取
   vite: {
@@ -7,7 +8,28 @@ export default defineNuxtConfig({
     optimizeDeps: {
       // 用于：从预捆绑中排除的依赖项
       exclude: []
-    }
+    },
+    plugins: [
+      Components({
+        resolvers: [AntDesignVueResolver({
+          importStyle: 'less' //配置为less
+        })]
+      })
+    ],
+    // ssr
+    ssr: {
+      noExternal: ['ant-design-vue'],
+    },
+    css: {
+      preprocessorOptions: {
+        less: {
+          modifyVars: {
+            'primary-color': '#ea6f5a'
+          },
+          javascriptEnabled: true,
+        }
+      }
+    },
   },
   plugins: [
     // { src: '~/plugins/vue-pdf.ts', ssr: false }

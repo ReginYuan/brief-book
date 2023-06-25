@@ -1,2 +1,2 @@
 declare module 'kysen-flexible';
-declare module 'vue-pdf';
+declare module 'ant-design-vue/es/message/style/css'

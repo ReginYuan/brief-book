@@ -22,5 +22,18 @@ const changeName = () => {
 const reset = () => {
    user.$reset()
 }
+/**
+ * 匿名(或内联)路由中间件
+ * 直接在使用它们的页面中定义,例如，直接定义一个匿名的中间件在页面元件中使用：
+ */
+definePageMeta({
+
+   middleware: defineNuxtRouteMiddleware(() => {
+      let authUser = false
+      if (!authUser) {
+         return navigateTo('/login')
+      }
+   })
+})
 
 </script>

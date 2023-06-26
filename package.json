@@ -68,7 +68,6 @@
     "vite": "4.0.0",
     "vue": "^3.0.0",
     "vue-i18n": "^9.2.2",
-    "vue-pdf": "^4.3.0",
     "unplugin-vue-components": "^0.25.1",
     "webpack": "4.46.0",
     "worker-loader": "^2.0.0"

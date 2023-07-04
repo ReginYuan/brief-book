@@ -10,7 +10,7 @@ const { $myPlugin } = useNuxtApp()
 const info = () => {
    message.info('袁秀飞是最帅的男人')
 }
-// const  { locale}  = use
+// const { locale } = useState()
 </script>
 
 <template>
@@ -18,10 +18,10 @@ const info = () => {
       {{ $myPlugin('我最帅') }}
       <a-button type="primary" @click="info">消息弹框</a-button>
 
-      <a-select v-model:value="locale">
+      <!-- <a-select v-model:value="locale">
          <a-select-option value="zh">zh</a-select-option>
          <a-select-option value="en">en</a-select-option>
-      </a-select>
+      </a-select> -->
       <h1>{{ $t('welcome') }}</h1>
    </div>
 </template>

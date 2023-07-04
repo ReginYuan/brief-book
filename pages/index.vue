@@ -1,4 +1,5 @@
 <script setup lang="ts">
+<<<<<<< HEAD
 /**
  * Ant非组件模块处理之前我们按需引入蚂蚁框架组件时，
  * 官方提示非组件不能直接使用。我们需要手动引入
@@ -24,11 +25,24 @@ const info = () => {
       </a-select> -->
       <h1>{{ $t('welcome') }}</h1>
    </div>
+=======
+</script>
+
+<template>
+  <div class="index">
+    <a-button type="primary">Add</a-button>
+  </div>
+>>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 </template>
 
 <style scoped>
 .index {
+<<<<<<< HEAD
    display: flex;
    flex-direction: column;
+=======
+  display: flex;
+  flex-direction: column;
+>>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 }
 </style>

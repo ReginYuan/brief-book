@@ -1,24 +1,15 @@
-<<<<<<< HEAD
 <template>
-    <div class="home">
-      <a-button type="primary" @click="info">消息弹框</a-button>
-    </div>
+  <div class="home">
+    <a-button type="primary" @click="info">消息弹框</a-button>
+  </div>
 </template>
  
 <script setup lang="ts">
 const { $message } = useNuxtApp()
 const info = () => {
-   $message.info('袁秀飞是最帅的男人')
+  $message.info('袁秀飞是最帅的男人')
 }
 </script>
  
 <style lang="scss" scoped>
-=======
-<template></template>
-
-<script setup lang="ts">
-</script>
-
-<style scoped>
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 </style>

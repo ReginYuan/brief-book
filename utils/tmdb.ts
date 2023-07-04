@@ -18,19 +18,11 @@ export let isRelogin = { show: false }
 type configType = {
   method?: 'GET' | 'POST' | 'PUT'
   header?:
-<<<<<<< HEAD
-    | {
-        isToken: false
-        Authorization: string
-      }
-    | any
-=======
   | {
     isToken: false
     Authorization: string
   }
   | any
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 }
 
 /**核心请求 */
@@ -78,11 +70,7 @@ function _fetchTMDB(
           // reload 是刷新的方法
           // 如果是在安卓环境下就调用对应返回安卓登录界面的方法
           if ((window as any).androidInterface && isAndroid) {
-<<<<<<< HEAD
-            ;(window as any).androidInterface.reload()
-=======
             ; (window as any).androidInterface.reload()
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
             return
           }
 
@@ -92,11 +80,7 @@ function _fetchTMDB(
             (window as any).webkit.messageHandlers.reload &&
             isIOS
           ) {
-<<<<<<< HEAD
-            ;(window as any).webkit.messageHandlers.reload.postMessage('')
-=======
             ; (window as any).webkit.messageHandlers.reload.postMessage('')
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
             return
           }
           // location.reload()

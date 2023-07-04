@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Components from 'unplugin-vue-components/vite'
+import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
 export default defineNuxtConfig({
   // 把env放入这个里面，通过useRuntimeConfig获取

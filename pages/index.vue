@@ -8,7 +8,7 @@ import { message } from 'ant-design-vue'
 // 获取挂在到 NuxtApp 的辅助函数
 const { $myPlugin } = useNuxtApp()
 const info = () => {
-   message.info('袁秀飞是最帅的男人')
+  message.info('袁秀飞是最帅的男人')
 }
 // const  { locale}  = use
 </script>

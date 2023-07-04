@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
     <div class="home">
       <a-button type="primary" @click="info">消息弹框</a-button>
@@ -13,12 +12,4 @@ const info = () => {
 </script>
  
 <style lang="scss" scoped>
-=======
-<template></template>
-
-<script setup lang="ts">
-</script>
-
-<style scoped>
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 </style>

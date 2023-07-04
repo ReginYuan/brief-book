@@ -22,7 +22,6 @@ const changeName = () => {
 const reset = () => {
    user.$reset()
 }
-<<<<<<< HEAD
 /**
  * 匿名(或内联)路由中间件
  * 直接在使用它们的页面中定义,例如，直接定义一个匿名的中间件在页面元件中使用：
@@ -36,7 +35,5 @@ definePageMeta({
       }
    })
 })
-=======
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 
 </script>

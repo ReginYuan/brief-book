@@ -1,10 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-<<<<<<< HEAD
-
-=======
 import Components from 'unplugin-vue-components/vite'
 import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 export default defineNuxtConfig({
   // 把env放入这个里面，通过useRuntimeConfig获取
   vite: {
@@ -13,8 +9,6 @@ export default defineNuxtConfig({
       // 用于：从预捆绑中排除的依赖项
       exclude: []
     },
-<<<<<<< HEAD
-=======
     plugins: [
       Components({
         resolvers: [AntDesignVueResolver({
@@ -36,7 +30,6 @@ export default defineNuxtConfig({
         }
       }
     },
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
   },
   plugins: [
     // { src: '~/plugins/vue-pdf.ts', ssr: false }
@@ -69,12 +62,6 @@ export default defineNuxtConfig({
     '@vant/nuxt',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-<<<<<<< HEAD
     '@unocss/nuxt',
-    '@nuxtjs/i18n'
   ],
-=======
-    '@unocss/nuxt'
-  ]
->>>>>>> b7905cd4198c0c04313d05cd3478fdf9efda3016
 })

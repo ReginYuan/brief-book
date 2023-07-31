@@ -32,7 +32,10 @@ export default defineNuxtConfig({
     },
   },
   plugins: [
-    // { src: '~/plugins/vue-pdf.ts', ssr: false }
+    { src: '~/plugins/globalloading', ssr: false },
+    { src: '~/plugins/naive-ui', ssr: false },
+    { src: '~/plugins/rem', ssr: false },
+    { src: '~/plugins/vconsole', ssr: false }
   ],
   css: ['@/assets/base.ignore.css'],
   postcss: {

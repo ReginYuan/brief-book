@@ -5,17 +5,20 @@
  */
 import 'ant-design-vue/es/message/style/css'
 import { message } from 'ant-design-vue'
-// 获取挂在到 NuxtApp 的辅助函数
-const { $myPlugin } = useNuxtApp()
-const info = () => {
+const messages = ref('我最帅')
+const info = async () => {
    message.info('袁秀飞是最帅的男人')
+   const { api } = await $fetch('/api/hello')
+   messages.value = api
 }
+
+
 
 </script>
 
 <template>
    <div class="index">
-      {{ $myPlugin('我最帅') }}
+      <h1>{{ messages }}</h1>
       <a-button type="primary" @click="info">消息弹框</a-button>
    </div>
 </template>

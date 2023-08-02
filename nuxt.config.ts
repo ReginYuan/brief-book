@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Components from 'unplugin-vue-components/vite';
-import { AntDesignVueResolver } from "unplugin-vue-components/resolvers";
+import Components from 'unplugin-vue-components/vite'
+import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 export default defineNuxtConfig({
   // 把env放入这个里面，通过useRuntimeConfig获取
   vite: {
@@ -11,14 +11,16 @@ export default defineNuxtConfig({
     },
     plugins: [
       Components({
-        resolvers: [AntDesignVueResolver({
-          importStyle: 'less' //配置为less
-        })]
+        resolvers: [
+          AntDesignVueResolver({
+            importStyle: 'less' //配置为less
+          })
+        ]
       })
     ],
     // ssr
     ssr: {
-      noExternal: ['ant-design-vue'],
+      noExternal: ['ant-design-vue']
     },
     css: {
       preprocessorOptions: {
@@ -26,14 +28,12 @@ export default defineNuxtConfig({
           modifyVars: {
             'primary-color': '#ea6f5a'
           },
-          javascriptEnabled: true,
+          javascriptEnabled: true
         }
       }
-    },
+    }
   },
-  plugins: [
-    { src: '~/plugins/vconsole', ssr: false }
-  ],
+  plugins: [{ src: '~/plugins/vconsole.ts', mode: 'client' }],
   css: ['@/assets/base.ignore.css'],
   postcss: {
     plugins: {
@@ -62,6 +62,6 @@ export default defineNuxtConfig({
     '@vant/nuxt',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    '@unocss/nuxt',
-  ],
+    '@unocss/nuxt'
+  ]
 })
